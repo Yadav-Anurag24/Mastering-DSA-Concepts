@@ -1,0 +1,14 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore output folders (anywhere in project)
+output/
+
+# Ignore compiled binaries (good practice for C++)
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignore temporary files
+*.log
