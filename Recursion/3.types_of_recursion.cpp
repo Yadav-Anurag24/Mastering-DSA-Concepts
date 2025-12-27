@@ -39,6 +39,29 @@ void fun3(int k){
     }
 }
 
+// Indirect Recursion Example.
+void A(int m){
+    if(m > 0){
+        cout<<m;
+        A( m - 1);
+    }
+}
+void B( int n){
+    if( n > 0){
+        cout<< n;
+        A( n/2);  
+    }
+}
+
+// Nested Recursion Example.
+int Nested_Fun(int n){
+    if (n > 100){
+        return n - 10;
+    }
+    else{
+        return Nested_Fun(Nested_Fun(n + 11));
+    }
+}
 
 
 
